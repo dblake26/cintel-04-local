@@ -1,5 +1,3 @@
-# cintel-04-local 
-
 # README for Module P4 - cintel-04-local
 
 ## Project Title
@@ -14,9 +12,9 @@ Once the project virtual environment has everything required, we can open the pr
 
 Focus: The focus in this course is on designing and implementing Interactive Apps - not the local Python development details or even the tools. For now, just follow each step carefully - you'll learn more in 44-608 Data Fundamentals and apply this process in other courses. Trust that by the time you graduate, it will be familiar.  Use your README.md to keep notes. 
 
-## Notes for Project
+# Notes for Project
 
-# Following the recommended workflow
+## Following the recommended workflow
 
 You started with the repo in GitHub and cloned it to your local machine. 
 
