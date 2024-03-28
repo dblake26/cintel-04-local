@@ -29,3 +29,8 @@ shiny run --reload --launch-browser penguins/app.py
 While the app is running, that terminal is fully occupied.
 
 Open a new terminal to run other commands.
+
+## Commands 
+With your project virtual environment active in the terminal and the necessary packages installed, run the app with live reloading and automatically open it in the browser:
+
+shiny run --reload --launch-browser penguins/app.py
