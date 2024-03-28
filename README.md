@@ -31,6 +31,21 @@ While the app is running, that terminal is fully occupied.
 Open a new terminal to run other commands.
 
 ## Commands 
-With your project virtual environment active in the terminal and the necessary packages installed, run the app with live reloading and automatically open it in the browser:
+- With your project virtual environment active in the terminal and the necessary packages installed, run the app with live reloading and automatically open it in the browser:
 
 shiny run --reload --launch-browser penguins/app.py
+
+- What command creates the virtual environment?
+python -m venv .env
+
+- What command activates the virtual environment?
+  .env\Scripts\activate
+  
+- What command installs pip, setuptools, and wheel packages into the virtual environment?
+  pip install -U pip setuptools wheel
+  
+- What command installs spacy into the virtual environment?
+  pip install -U spacy
+  
+- What command downloads and installs the spaCy model en_core_web_sm (English core small model).
+  python -m spacy download en_core_web_sm
