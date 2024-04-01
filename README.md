@@ -53,3 +53,11 @@ python -m venv .env
   
 - What command downloads and installs the spaCy model en_core_web_sm (English core small model).
   python -m spacy download en_core_web_sm
+
+-  Use shinylive export to build the app in the penguins folder to the docs folder
+  shinylive export penguins docs
+
+- Serve the app locally from the docs folder to test before publishing to GitHub Pages
+  py -m http.server --directory docs --bind localhost 8008
+
+  
