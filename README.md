@@ -1,4 +1,4 @@
-env# README for Module P4 - cintel-04-local
+README for Module P4 - cintel-04-local
 
 ## Project Title
 
