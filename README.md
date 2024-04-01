@@ -19,6 +19,10 @@ Focus: The focus in this course is on designing and implementing Interactive App
 You started with the repo in GitHub and cloned it to your local machine. 
 
 You created a local project virtual environment in the .venv folder, activated it, and installed necessary packages. 
+  packages include 
+  py -m pip install --upgrade pip setuptools
+
+py -m pip install --upgrade -r requirements.txt
 
 After all that, you should be able to open your project folder (cintel-04-local) in VS Code.
 
