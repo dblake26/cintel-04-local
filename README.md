@@ -19,6 +19,10 @@ Focus: The focus in this course is on designing and implementing Interactive App
 You started with the repo in GitHub and cloned it to your local machine. 
 
 You created a local project virtual environment in the .venv folder, activated it, and installed necessary packages. 
+  packages include 
+  py -m pip install --upgrade pip setuptools
+
+py -m pip install --upgrade -r requirements.txt
 
 After all that, you should be able to open your project folder (cintel-04-local) in VS Code.
 
@@ -29,3 +33,23 @@ shiny run --reload --launch-browser penguins/app.py
 While the app is running, that terminal is fully occupied.
 
 Open a new terminal to run other commands.
+
+## Commands 
+- With your project virtual environment active in the terminal and the necessary packages installed, run the app with live reloading and automatically open it in the browser:
+
+shiny run --reload --launch-browser penguins/app.py
+
+- What command creates the virtual environment?
+python -m venv .env
+
+- What command activates the virtual environment?
+  .env\Scripts\activate
+  
+- What command installs pip, setuptools, and wheel packages into the virtual environment?
+  pip install -U pip setuptools wheel
+  
+- What command installs spacy into the virtual environment?
+  pip install -U spacy
+  
+- What command downloads and installs the spaCy model en_core_web_sm (English core small model).
+  python -m spacy download en_core_web_sm
